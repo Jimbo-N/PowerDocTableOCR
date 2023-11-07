@@ -1,6 +1,6 @@
 from convert import extract_tables_to_csv
 
-file_path = "table/excel/table_excel.xlsx"
+file_path = "table/images/"
 extract_tables_to_csv(file_path)
 # 测试文件都放在table目录下
 # output_dir='resources/outputFiles/'默认输出路径，是extract_tables_to_csv的参数，可以更改
