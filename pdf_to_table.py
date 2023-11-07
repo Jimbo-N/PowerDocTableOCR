@@ -20,4 +20,4 @@ def extract_tables_from_pdf(pdf_path, output_dir):
         page.save(image_path, 'JPEG')
 
         # 使用表格提取函数处理图片
-        extract_table(image_path, page_dir)
+        extract_table(image_path, page_dir, True)

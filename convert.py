@@ -29,7 +29,7 @@ def extract_tables_to_csv(doc_path, csv_path=''):
     elif fix == '.pdf':
         extract_tables_from_pdf(doc_path, csv_path)
     else:
-        extract_table(doc_path, csv_path)   #图片
+        extract_table(doc_path, csv_path, False)   #图片
 
     print("提取完成，输出路径为：{}".format(os.path.abspath(csv_path)))
 
